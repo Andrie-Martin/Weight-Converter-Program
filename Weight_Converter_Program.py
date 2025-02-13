@@ -11,11 +11,11 @@ while True:
 
 # If statements
 
-    if is_lbs_or_kl == "L":
+    if is_lbs_or_kl.upper() == "L":
         print(f"Your weight in pounds is {lbs_converter}")
         break
 
-    elif is_lbs_or_kl == "K":
+    elif is_lbs_or_kl.upper() == "K":
         print(f"Your weight in kilograms is {kilo_converter}")
         break
     else:
